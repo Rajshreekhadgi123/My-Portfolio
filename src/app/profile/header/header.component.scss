@@ -1,0 +1,131 @@
+.navbar a:not(.btn):not(.dropdown-item) {
+    color: #FFFFFF;
+}
+.navbar .navbar-brand {
+    text-transform: uppercase;
+    font-size: 0.8571em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.625rem;
+    font-weight: 700;
+}
+.navbar .navbar-brand:hover{
+   
+        color: #fff;
+        text-shadow: 0 0 5px #f59504,
+                    0 0 25px #f09205,
+                    0 0 50px #e08804,
+                    0 0 100px #f19409;
+      
+}
+.navbar a {
+    vertical-align: middle;
+}
+.navbar{
+   width: 100%;
+  padding: 10px 80px;
+ background-color: rgba(88, 84, 84, 0.281);
+}
+// .navbar .collapse{
+//     background-color: rgb(54, 54, 54);
+// }
+.navbar a{
+    position: relative;
+}
+.navbar .collapse a:hover{
+    text-shadow: 0 0 5px #f59504,
+    0 0 25px #f09205,
+    0 0 50px #e08804,
+    0 0 100px #f19409;
+}
+.navbar .navbar-nav li{
+    margin: 0 10px;
+}
+
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+
+  }
+
+.navbar .navbar-brand{
+    text-transform: uppercase;
+    font-family: Poppins,sans-serif!important;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    animation-timing-function: linear;
+    animation: mymove 1s ;
+
+}
+// @keyframes mymove {
+//     from {left: -200px;}
+//     to {left: 0px;}
+//   }
+.navbar li a{
+ text-transform: uppercase;
+ font-family: Poppins,sans-serif!important;
+ font-size: 0.8em;
+ letter-spacing: 2px;
+}
+.navbar .navbar-toggler {
+    width: 37px;
+    height: 27px;
+    outline: 0;
+    cursor: pointer;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        width: 100%;
+        padding: 10px 20px;
+        background-color: rgba(88, 84, 84, 0.281);
+    }
+    .navbar-toggler{
+      box-shadow: none;
+      margin-top: -20px;
+      color: #fff;
+
+    }
+    .navbar .navbar-brand{
+        font-size: 12px;
+        color: black;
+    }
+    // .navbar .navbar-nav li{
+    //     text-align: center;
+    // }
+   
+  }

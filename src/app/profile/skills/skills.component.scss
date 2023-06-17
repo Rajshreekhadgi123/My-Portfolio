@@ -1,0 +1,110 @@
+.progress-container.progress-primary .progress-bar {
+    background: #00334D;
+}
+.title{
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom:30px ;
+  }
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card .card-body {
+    min-height: 190px;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 768px){
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+}
+
+}
+
+.progress-container {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.progress-container {
+    position: relative;
+}
+.progress-container.progress-primary .progress-badge {
+    color: #00334D;
+}
+.progress-container .progress-badge {
+    color: #888;
+    font-size: 0.8571em;
+    text-transform: uppercase;
+}
+.progress-container.progress-primary .progress-value, .progress-container.progress-primary .progress-badge {
+    color: #00334D;
+}
+.progress-container .progress .progress-value {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    color: #888;
+    font-size: 0.8571em;
+}
+div, h1, h2, h3, h4, h5, h6, li, p, span {
+    font-family: Poppins,sans-serif!important;
+}
+.progress-container.progress-primary .progress-bar {
+    background: rgb(248, 154, 47);
+}
+.progress-container.progress-primary .progress {
+    background: rgba(10, 49, 68, 0.349);
+}
+.progress-container .progress {
+    height: 5px;
+    font-size: 18px;
+}
+.progress-container .progress {
+    height: 5px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: rgba(222, 222, 222, 0.8);
+    margin-top: 14px;
+}
+.progress {
+    display: flex;
+    font-size: .75rem;
+    line-height: 1rem;
+    text-align: center;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}

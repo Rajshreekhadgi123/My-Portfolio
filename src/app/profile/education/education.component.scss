@@ -1,0 +1,99 @@
+h4{
+    color:#4a4843;
+font-size: 18px;
+margin-bottom: 10px;
+margin-top:2px;
+}
+.title{
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom:30px ;
+}
+.block{
+    animation-timing-function: linear;
+    animation: mymove 2s ;
+    position: relative;
+}
+
+@keyframes mymove {
+    from {left: -200px;}
+    to {left: 0px;}
+  }
+
+.right{
+    animation-timing-function: linear;
+    animation: mymove2 2s  ;
+    position: relative;
+}
+@keyframes mymove2 {
+    from {right: -600px;}
+    to {right: 0px;}
+  }
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translate(0);
+}
+.bg-primary {
+    background-color: rgb(248, 154, 47) !important; 
+}
+.cc-education .cc-education-header {
+    padding-top: 60px;
+    padding-right: 0;
+    text-align: center;
+    color: #fff;
+}
+.card .card-body {
+    min-height: 190px;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card .card-body {
+    min-height: 190px;
+}
+.cc-education .h5 {
+    margin-bottom: 0;
+}
+p{
+    font-size: 0.8em;
+}
+h5, .h5 {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+}
+h4[_ngcontent-serverApp-c15] {
+    color: #4a4843;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+.category {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #9A9A9A;
+}
+
+
+
